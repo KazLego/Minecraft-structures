@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+}
+body{
+background-image: url("bg.jpg");
+background-size: cover;
+background-attachment: fixed;
+
+
+}
+
+h2{
+ color: rgb(255, 255, 255);
+text-shadow: 0 0 10px rgb(135, 135, 135);
+
+
+}
+h1{
+color: rgb(255, 255, 255);
+text-shadow: 0 0 10px rgb(135, 135, 135);
+
+}
+.title{
+text-align: center;
+margin-top: 40px;
+margin-bottom: 40px;
+font-size: 40px;
+}
+h3{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(135, 135, 135);
+
+
+
+}
+a{
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(135, 135, 135);
+display: block;
+margin-bottom: 20px;
+font-size: 18px;
+text-decoration: none;
+transition: 2s ;
+background: rgb(113,0,73);
+background: linear-gradient(90deg, rgba(113,0,73,1) 20%, rgba(0,0,0,1) 50%, rgba(103,0,78,1) 80%);
+background-clip: text;
+-webkit-background-clip: text;
+}
+a:hover{
+   
+    background-color: black;
+
+color: transparent;
+}
+.menu{
+background-image: url("smi.jpg");
+width: 300px;
+height: 100%;
+position: fixed;
+}
+.content{
+margin-left: 300px;
+
+}
+img{
+width: 480px;
+
+
+}
+html{
+scroll-behavior:smooth ;
+
+
+
+}
